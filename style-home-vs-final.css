@@ -39,7 +39,6 @@ nav a:active {
 }
 
 /* Desenvolvimento Da Página */
-
 .banner {
     width: 100%;
 }
@@ -48,6 +47,7 @@ nav a:active {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
 }
 
 .principal p {
@@ -63,7 +63,9 @@ nav a:active {
 }
 
 .utensilios {
-    width: 150px;
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 p {
@@ -99,7 +101,6 @@ ul {
 }
 
 /* Rodapé da Página */
-
 footer {
     text-align: center;
     background: url("imgs/bg.jpg");
