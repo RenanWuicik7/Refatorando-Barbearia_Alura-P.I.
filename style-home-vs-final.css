@@ -136,7 +136,12 @@ em strong {
 
 .imagem-beneficios {
     width: 60%;
-    display: inline-block;
+    opacity: 1;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+    transition: 400ms;
 }
 
 .video {
